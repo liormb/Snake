@@ -1,0 +1,25 @@
+{
+  "name": "Snake",
+  "version": "1.0.0",
+  "description": "Snake Game",
+  "main": "src/index.js",
+  "author": "Lior Elrom",
+  "license": "MIT",
+  "scripts": {
+    "open": "open -a \"Google Chrome\" public/index.html",
+    "build": "webpack --mode development",
+    "start": "npm run build && npm run open"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
