@@ -31,7 +31,8 @@ Refresh the browser to play again
 1. Sound
 2. Re-design Snake
 3. Play again button
-4. Browser ​compatibility​
+4. Browser compatibility
 5. Control panel for settings
+6. Use Linked List Data Structure
 
 etc.
